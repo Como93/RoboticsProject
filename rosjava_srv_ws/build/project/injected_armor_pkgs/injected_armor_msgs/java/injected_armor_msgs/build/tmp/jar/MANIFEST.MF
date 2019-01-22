@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: injected_armor_msgs;version="2.0.0";uses:="org.ros.int
+ ernal.message"
+Bundle-SymbolicName: org.ros.rosjava_messages.injected_armor_msgs
+Bundle-Version: 2.0.0
+Bundle-Name: injected_armor_msgs
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1548170239000
+Import-Package: org.ros.internal.message
+Created-By: 1.8.0_191 (Oracle Corporation)
+Tool: Bnd-2.1.0.20130426-122213
+

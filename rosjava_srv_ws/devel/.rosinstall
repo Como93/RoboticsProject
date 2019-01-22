@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/rosjava_srv_ws/devel/setup.sh

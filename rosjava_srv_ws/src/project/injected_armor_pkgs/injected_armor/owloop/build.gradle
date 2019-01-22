@@ -1,0 +1,14 @@
+group 'it.emarolab.owloop'
+version = project.catkin.pkg.version
+
+repositories {
+    maven {
+        url "../../../../devel/share/maven/"
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile project(':amor')
+}

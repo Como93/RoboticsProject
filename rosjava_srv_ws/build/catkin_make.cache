@@ -1,0 +1,2 @@
+project/injected_armor_pkgs/armor_py_client_api:project/injected_armor_pkgs/injected_armor:project/injected_armor_pkgs/injected_armor_msgs:tutorial_custom_srv
+-DCATKIN_DEVEL_PREFIX=/home/ros/rosjava_srv_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros/rosjava_srv_ws/install -G Unix Makefiles

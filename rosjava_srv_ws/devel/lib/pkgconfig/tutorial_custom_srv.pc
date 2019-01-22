@@ -1,0 +1,8 @@
+prefix=/home/ros/rosjava_srv_ws/devel
+
+Name: tutorial_custom_srv
+Description: Description of tutorial_custom_srv
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/ros/rosjava_srv_ws/devel/lib 
+Requires: 

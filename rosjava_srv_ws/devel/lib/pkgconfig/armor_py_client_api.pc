@@ -1,0 +1,8 @@
+prefix=/home/ros/rosjava_srv_ws/devel
+
+Name: armor_py_client_api
+Description: Description of armor_py_client_api
+Version: 2.0.0
+Cflags: 
+Libs: -L/home/ros/rosjava_srv_ws/devel/lib 
+Requires: 

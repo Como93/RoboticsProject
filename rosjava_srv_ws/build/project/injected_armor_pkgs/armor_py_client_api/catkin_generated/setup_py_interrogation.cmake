@@ -1,0 +1,6 @@
+set(armor_py_client_api_SETUP_PY_VERSION "2.0.0")
+set(armor_py_client_api_SETUP_PY_SCRIPTS "")
+set(armor_py_client_api_SETUP_PY_PACKAGES "armor_api")
+set(armor_py_client_api_SETUP_PY_PACKAGE_DIRS "scripts/armor_api")
+set(armor_py_client_api_SETUP_PY_MODULES "")
+set(armor_py_client_api_SETUP_PY_MODULE_DIRS "")
