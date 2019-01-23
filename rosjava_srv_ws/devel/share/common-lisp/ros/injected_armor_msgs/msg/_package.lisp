@@ -7,5 +7,7 @@
    "ARMORDIRECTIVERES"
    "<QUERYITEM>"
    "QUERYITEM"
+   "<SHAPE>"
+   "SHAPE"
   ))
 

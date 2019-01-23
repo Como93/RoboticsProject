@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/rosjava_srv_ws/build/CMakeFiles /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/progress.marks
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/rosjava_srv_ws/build/CMakeFiles 0
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/progress.marks
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/clean
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/preinstall
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/preinstall
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/rule:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/rule
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/rule
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ gradle-clean: project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean
 
 # fast build rule for target.
 gradle-clean/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build
 .PHONY : gradle-clean/fast
 
 # Convenience name for target.
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/rule:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/rule
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/rule
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ gradle-injected_armor: project/injected_armor_pkgs/injected_armor/CMakeFiles/gra
 
 # fast build rule for target.
 gradle-injected_armor/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build
 .PHONY : gradle-injected_armor/fast
 
 # Convenience name for target.
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/rule:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/rule
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/rule
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/rule
 
 # Convenience name for target.
@@ -207,7 +207,7 @@ gradle-clean-injected_armor: project/injected_armor_pkgs/injected_armor/CMakeFil
 
 # fast build rule for target.
 gradle-clean-injected_armor/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/build
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/build.make project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean-injected_armor.dir/build
 .PHONY : gradle-clean-injected_armor/fast
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

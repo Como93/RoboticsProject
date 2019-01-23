@@ -1,10 +1,12 @@
 
 "use strict";
 
-let ArmorDirective = require('./ArmorDirective.js')
+let Words = require('./Words.js')
 let ArmorDirectiveList = require('./ArmorDirectiveList.js')
+let ArmorDirective = require('./ArmorDirective.js')
 
 module.exports = {
-  ArmorDirective: ArmorDirective,
+  Words: Words,
   ArmorDirectiveList: ArmorDirectiveList,
+  ArmorDirective: ArmorDirective,
 };

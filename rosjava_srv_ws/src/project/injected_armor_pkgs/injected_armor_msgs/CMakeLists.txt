@@ -48,6 +48,7 @@ add_message_files(
   QueryItem.msg
   ArmorDirectiveReq.msg
   ArmorDirectiveRes.msg
+  Shape.msg
 )
 
 # Generate services in the 'srv' folder
@@ -55,6 +56,7 @@ add_service_files(
   FILES
   ArmorDirective.srv
   ArmorDirectiveList.srv
+  Words.srv
 )
 
 ## Generate actions in the 'action' folder

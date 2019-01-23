@@ -9,4 +9,6 @@
     (:file "_package_ArmorDirective" :depends-on ("_package"))
     (:file "ArmorDirectiveList" :depends-on ("_package_ArmorDirectiveList"))
     (:file "_package_ArmorDirectiveList" :depends-on ("_package"))
+    (:file "Words" :depends-on ("_package_Words"))
+    (:file "_package_Words" :depends-on ("_package"))
   ))

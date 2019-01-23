@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/rosjava_srv_ws/build/CMakeFiles /home/ros/rosjava_srv_ws/build/tutorial_custom_srv/CMakeFiles/progress.marks
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/rosjava_srv_ws/build/CMakeFiles 0
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles /home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv/CMakeFiles/progress.marks
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/clean
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/preinstall
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/preinstall
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/rule:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/rule
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/rule
 .PHONY : tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ gradle-tutorial_custom_srv: tutorial_custom_srv/CMakeFiles/gradle-tutorial_custo
 
 # fast build rule for target.
 gradle-tutorial_custom_srv/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/build.make tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/build
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/build.make tutorial_custom_srv/CMakeFiles/gradle-tutorial_custom_srv.dir/build
 .PHONY : gradle-tutorial_custom_srv/fast
 
 # Convenience name for target.
 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/rule:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/rule
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/rule
 .PHONY : tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ gradle-clean-tutorial_custom_srv: tutorial_custom_srv/CMakeFiles/gradle-clean-tu
 
 # fast build rule for target.
 gradle-clean-tutorial_custom_srv/fast:
-	cd /home/ros/rosjava_srv_ws/build && $(MAKE) -f tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build.make tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(MAKE) -f tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build.make tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build
 .PHONY : gradle-clean-tutorial_custom_srv/fast
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

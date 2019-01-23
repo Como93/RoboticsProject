@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for gradle-clean.
 
@@ -63,10 +63,10 @@ project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build: gr
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/build
 
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean.dir/cmake_clean.cmake
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/clean
 
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-clean.dir/depend
 

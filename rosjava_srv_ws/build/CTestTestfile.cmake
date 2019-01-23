@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ros/rosjava_srv_ws/src
-# Build directory: /home/ros/rosjava_srv_ws/build
+# Source directory: /home/gor/RoboticsProject/rosjava_srv_ws/src
+# Build directory: /home/gor/RoboticsProject/rosjava_srv_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

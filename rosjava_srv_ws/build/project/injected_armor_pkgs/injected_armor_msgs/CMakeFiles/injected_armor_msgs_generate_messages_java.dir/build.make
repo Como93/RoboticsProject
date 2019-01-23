@@ -43,47 +43,51 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for injected_armor_msgs_generate_messages_java.
 
 # Include the progress variables for this target.
 include project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/progress.make
 
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java: project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle
 
 
 project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /opt/ros/kinetic/lib/genjava/genjava_gradle_project.py
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Java gradle project from injected_armor_msgs"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py -o /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/java -p injected_armor_msgs
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && touch /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/droppings
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Java gradle project from injected_armor_msgs"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py -o /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/java -p injected_armor_msgs
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && touch /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/droppings
 
 injected_armor_msgs_generate_messages_java: project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java
 injected_armor_msgs_generate_messages_java: project/injected_armor_pkgs/injected_armor_msgs/java/injected_armor_msgs/build.gradle
@@ -97,10 +101,10 @@ project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_g
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/build
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_generate_messages_java.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_generate_messages_java.dir/cmake_clean.cmake
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/clean
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_java.dir/depend
 

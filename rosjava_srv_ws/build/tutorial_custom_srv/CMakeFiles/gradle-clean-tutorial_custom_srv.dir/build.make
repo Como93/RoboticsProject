@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for gradle-clean-tutorial_custom_srv.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
 include tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/progress.make
 
 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning gradle project for tutorial_custom_srv"
-	cd /home/ros/rosjava_srv_ws/src/tutorial_custom_srv && /home/ros/rosjava_srv_ws/build/catkin_generated/env_cached.sh /home/ros/rosjava_srv_ws/src/tutorial_custom_srv/gradlew clean
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning gradle project for tutorial_custom_srv"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/src/tutorial_custom_srv && /home/gor/RoboticsProject/rosjava_srv_ws/build/catkin_generated/env_cached.sh /home/gor/RoboticsProject/rosjava_srv_ws/src/tutorial_custom_srv/gradlew clean
 
 gradle-clean-tutorial_custom_srv: tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv
 gradle-clean-tutorial_custom_srv: tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build.make
@@ -68,10 +68,10 @@ tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build: gradl
 .PHONY : tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/build
 
 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/tutorial_custom_srv && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-tutorial_custom_srv.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-tutorial_custom_srv.dir/cmake_clean.cmake
 .PHONY : tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/clean
 
 tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/tutorial_custom_srv /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/tutorial_custom_srv /home/ros/rosjava_srv_ws/build/tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/tutorial_custom_srv /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv /home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_custom_srv/CMakeFiles/gradle-clean-tutorial_custom_srv.dir/depend
 

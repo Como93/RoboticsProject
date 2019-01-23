@@ -43,67 +43,81 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for injected_armor_msgs_generate_messages_eus.
 
 # Include the progress variables for this target.
 include project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/progress.make
 
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l
-project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/Shape.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/Words.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l
+project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l
 
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from injected_armor_msgs/QueryItem.msg"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg -Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveRes.msg"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveReq.msg"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg -Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from injected_armor_msgs/QueryItem.msg"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveRes.msg"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg -Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/Shape.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/Shape.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from injected_armor_msgs/Shape.msg"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveList.srv"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv -Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveReq.msg"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from injected_armor_msgs/ArmorDirective.srv"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv -Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/Words.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/Words.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from injected_armor_msgs/Words.srv"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv
 
-/home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for injected_armor_msgs"
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs injected_armor_msgs std_msgs
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from injected_armor_msgs/ArmorDirective.srv"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv
+
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from injected_armor_msgs/ArmorDirectiveList.srv"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv -Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p injected_armor_msgs -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv
+
+/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp manifest code for injected_armor_msgs"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs injected_armor_msgs std_msgs
 
 injected_armor_msgs_generate_messages_eus: project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l
-injected_armor_msgs_generate_messages_eus: /home/ros/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveRes.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/QueryItem.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/Shape.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/msg/ArmorDirectiveReq.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/Words.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirective.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/srv/ArmorDirectiveList.l
+injected_armor_msgs_generate_messages_eus: /home/gor/RoboticsProject/rosjava_srv_ws/devel/share/roseus/ros/injected_armor_msgs/manifest.l
 injected_armor_msgs_generate_messages_eus: project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/build.make
 
 .PHONY : injected_armor_msgs_generate_messages_eus
@@ -114,10 +128,10 @@ project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_g
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/build
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/clean
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_generate_messages_eus.dir/depend
 

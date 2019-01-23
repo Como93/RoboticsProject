@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "injected_armor_msgs: 3 messages, 2 services")
+message(STATUS "injected_armor_msgs: 4 messages, 3 services")
 
-set(MSG_I_FLAGS "-Iinjected_armor_msgs:/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iinjected_armor_msgs:/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -18,29 +18,39 @@ add_custom_target(injected_armor_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" "injected_armor_msgs/QueryItem"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" "injected_armor_msgs/QueryItem"
 )
 
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" "injected_armor_msgs/QueryItem:injected_armor_msgs/ArmorDirectiveReq:injected_armor_msgs/ArmorDirectiveRes"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
 add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" "injected_armor_msgs/QueryItem:injected_armor_msgs/ArmorDirectiveReq:injected_armor_msgs/ArmorDirectiveRes"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" ""
+)
+
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" "injected_armor_msgs/ArmorDirectiveRes:injected_armor_msgs/ArmorDirectiveReq:injected_armor_msgs/QueryItem"
+)
+
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "injected_armor_msgs" "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" "injected_armor_msgs/ArmorDirectiveRes:injected_armor_msgs/ArmorDirectiveReq:injected_armor_msgs/QueryItem"
 )
 
 #
@@ -50,35 +60,47 @@ add_custom_target(_injected_armor_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_cpp(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_cpp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_cpp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_cpp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_cpp(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -94,15 +116,19 @@ add_custom_target(injected_armor_msgs_generate_messages_cpp
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_cpp _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -115,35 +141,47 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS injected_armor_msgs_generate_messag
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_eus(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_eus(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_eus(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_eus(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_eus(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_eus(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -159,15 +197,19 @@ add_custom_target(injected_armor_msgs_generate_messages_eus
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_eus _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -180,35 +222,47 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS injected_armor_msgs_generate_messag
 ### Section generating for lang: genjava
 ### Generating Messages
 _generate_msg_java(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_java(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_java(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_java(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_java(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_java(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_java(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -224,15 +278,19 @@ add_custom_target(injected_armor_msgs_generate_messages_java
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_java)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_java _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -245,35 +303,47 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS injected_armor_msgs_generate_messag
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_lisp(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_lisp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_lisp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_lisp(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_lisp(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -289,15 +359,19 @@ add_custom_target(injected_armor_msgs_generate_messages_lisp
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_lisp _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -310,35 +384,47 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS injected_armor_msgs_generate_messag
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_nodejs(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_nodejs(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_nodejs(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_nodejs(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_nodejs(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_nodejs(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -354,15 +440,19 @@ add_custom_target(injected_armor_msgs_generate_messages_nodejs
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_nodejs _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -375,35 +465,47 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS injected_armor_msgs_generate_messag
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_msg_py(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_py(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_msg_py(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
 )
 
 ### Generating Services
 _generate_srv_py(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
 )
 _generate_srv_py(injected_armor_msgs
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv"
   "${MSG_I_FLAGS}"
-  "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
+)
+_generate_srv_py(injected_armor_msgs
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv"
+  "${MSG_I_FLAGS}"
+  "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg;/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/injected_armor_msgs
 )
 
@@ -419,15 +521,19 @@ add_custom_target(injected_armor_msgs_generate_messages_py
 add_dependencies(injected_armor_msgs_generate_messages injected_armor_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveReq.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/QueryItem.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/ArmorDirectiveRes.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/msg/Shape.msg" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/Words.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirectiveList.srv" NAME_WE)
+add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs/srv/ArmorDirective.srv" NAME_WE)
 add_dependencies(injected_armor_msgs_generate_messages_py _injected_armor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

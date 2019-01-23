@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for injected_armor_msgs_genlisp.
 
@@ -63,10 +63,10 @@ project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_g
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/build
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/injected_armor_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/clean
 
 project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/injected_armor_pkgs/injected_armor_msgs/CMakeFiles/injected_armor_msgs_genlisp.dir/depend
 

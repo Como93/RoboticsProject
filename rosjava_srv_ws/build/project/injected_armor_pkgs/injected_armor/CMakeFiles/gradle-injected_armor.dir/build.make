@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/rosjava_srv_ws/src
+CMAKE_SOURCE_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
+CMAKE_BINARY_DIR = /home/gor/RoboticsProject/rosjava_srv_ws/build
 
 # Utility rule file for gradle-injected_armor.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ros/rosjava_srv_ws/build
 include project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/progress.make
 
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for injected_armor"
-	cd /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor && ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/ros/rosjava_srv_ws/build/catkin_generated/env_cached.sh /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor/gradlew -q install installApp deployApp publishMavenJavaPublicationToMavenRepository
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for injected_armor"
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor && ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/gor/RoboticsProject/rosjava_srv_ws/build/catkin_generated/env_cached.sh /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor/gradlew -q installApp publish
 
 gradle-injected_armor: project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor
 gradle-injected_armor: project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build.make
@@ -68,10 +68,10 @@ project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/build
 
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/clean:
-	cd /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor && $(CMAKE_COMMAND) -P CMakeFiles/gradle-injected_armor.dir/cmake_clean.cmake
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor && $(CMAKE_COMMAND) -P CMakeFiles/gradle-injected_armor.dir/cmake_clean.cmake
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/clean
 
 project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/depend:
-	cd /home/ros/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/rosjava_srv_ws/src /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor /home/ros/rosjava_srv_ws/build /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor /home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gor/RoboticsProject/rosjava_srv_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gor/RoboticsProject/rosjava_srv_ws/src /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/injected_armor /home/gor/RoboticsProject/rosjava_srv_ws/build /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor /home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/injected_armor_pkgs/injected_armor/CMakeFiles/gradle-injected_armor.dir/depend
 

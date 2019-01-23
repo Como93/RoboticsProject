@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4c59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d4c59.dir/build.make CMakeFiles/cmTC_d4c59.dir/build
-make[1]: ingresso nella directory "/home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_d4c59.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d4c59.dir/CheckSymbolExists.c.o   -c /home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d4c59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4c59.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d4c59.dir/CheckSymbolExists.c.o  -o cmTC_d4c59 -rdynamic 
-CMakeFiles/cmTC_d4c59.dir/CheckSymbolExists.c.o: nella funzione "main":
+Run Build Command:"/usr/bin/make" "cmTC_ac47f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac47f.dir/build.make CMakeFiles/cmTC_ac47f.dir/build
+make[1]: ingresso nella directory "/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_ac47f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ac47f.dir/CheckSymbolExists.c.o   -c /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ac47f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac47f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ac47f.dir/CheckSymbolExists.c.o  -o cmTC_ac47f -rdynamic 
+CMakeFiles/cmTC_ac47f.dir/CheckSymbolExists.c.o: nella funzione "main":
 CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d4c59.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_d4c59" non riuscito
-make[1]: *** [cmTC_d4c59] Errore 1
-make[1]: uscita dalla directory "/home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_d4c59/fast" non riuscito
-make: *** [cmTC_d4c59/fast] Errore 2
+CMakeFiles/cmTC_ac47f.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_ac47f" non riuscito
+make[1]: *** [cmTC_ac47f] Errore 1
+make[1]: uscita dalla directory "/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_ac47f/fast" non riuscito
+make: *** [cmTC_ac47f/fast] Errore 2
 
-File /home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e647/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e647.dir/build.make CMakeFiles/cmTC_0e647.dir/build
-make[1]: ingresso nella directory "/home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_0e647.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0e647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0e647
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e647.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0e647.dir/CheckFunctionExists.c.o  -o cmTC_0e647 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_cc10f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc10f.dir/build.make CMakeFiles/cmTC_cc10f.dir/build
+make[1]: ingresso nella directory "/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_cc10f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cc10f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc10f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc10f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cc10f.dir/CheckFunctionExists.c.o  -o cmTC_cc10f -rdynamic -lpthreads 
 /usr/bin/ld: impossibile trovare -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0e647.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_0e647" non riuscito
-make[1]: *** [cmTC_0e647] Errore 1
-make[1]: uscita dalla directory "/home/ros/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_0e647/fast" non riuscito
-make: *** [cmTC_0e647/fast] Errore 2
+CMakeFiles/cmTC_cc10f.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_cc10f" non riuscito
+make[1]: *** [cmTC_cc10f] Errore 1
+make[1]: uscita dalla directory "/home/gor/RoboticsProject/rosjava_srv_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_cc10f/fast" non riuscito
+make: *** [cmTC_cc10f/fast] Errore 2
 
 

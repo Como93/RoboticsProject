@@ -1,8 +1,8 @@
-prefix=/home/ros/rosjava_srv_ws/install
+prefix=/home/gor/RoboticsProject/rosjava_srv_ws/install
 
 Name: injected_armor_msgs
 Description: Description of injected_armor_msgs
 Version: 2.0.0
-Cflags: -I/home/ros/rosjava_srv_ws/install/include
-Libs: -L/home/ros/rosjava_srv_ws/install/lib 
+Cflags: -I/home/gor/RoboticsProject/rosjava_srv_ws/install/include
+Libs: -L/home/gor/RoboticsProject/rosjava_srv_ws/install/lib 
 Requires: message_runtime

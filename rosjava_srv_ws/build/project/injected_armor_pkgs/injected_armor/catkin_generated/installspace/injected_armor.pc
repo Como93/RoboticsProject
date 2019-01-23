@@ -1,8 +1,8 @@
-prefix=/home/ros/rosjava_srv_ws/install
+prefix=/home/gor/RoboticsProject/rosjava_srv_ws/install
 
 Name: injected_armor
 Description: Description of injected_armor
 Version: 2.0.0
 Cflags: 
-Libs: -L/home/ros/rosjava_srv_ws/install/lib 
+Libs: -L/home/gor/RoboticsProject/rosjava_srv_ws/install/lib 
 Requires: 

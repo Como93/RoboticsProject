@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api/scripts".split(";")
+__extended_path = "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api/scripts".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

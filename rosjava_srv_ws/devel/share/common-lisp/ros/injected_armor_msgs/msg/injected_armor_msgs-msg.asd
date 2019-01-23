@@ -10,4 +10,6 @@
     (:file "_package_ArmorDirectiveRes" :depends-on ("_package"))
     (:file "QueryItem" :depends-on ("_package_QueryItem"))
     (:file "_package_QueryItem" :depends-on ("_package"))
+    (:file "Shape" :depends-on ("_package_Shape"))
+    (:file "_package_Shape" :depends-on ("_package"))
   ))

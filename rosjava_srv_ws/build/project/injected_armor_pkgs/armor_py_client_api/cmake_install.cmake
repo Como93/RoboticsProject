@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api
+# Install script for directory: /home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/rosjava_srv_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gor/RoboticsProject/rosjava_srv_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/safe_execute_install.cmake")
+  include("/home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_api.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_api.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armor_py_client_api/cmake" TYPE FILE FILES
-    "/home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_apiConfig.cmake"
-    "/home/ros/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_apiConfig-version.cmake"
+    "/home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_apiConfig.cmake"
+    "/home/gor/RoboticsProject/rosjava_srv_ws/build/project/injected_armor_pkgs/armor_py_client_api/catkin_generated/installspace/armor_py_client_apiConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armor_py_client_api" TYPE FILE FILES "/home/ros/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armor_py_client_api" TYPE FILE FILES "/home/gor/RoboticsProject/rosjava_srv_ws/src/project/injected_armor_pkgs/armor_py_client_api/package.xml")
 endif()
 

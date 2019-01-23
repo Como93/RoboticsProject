@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/rosjava_srv_ws/src/tutorial_custom_srv
+# Install script for directory: /home/gor/RoboticsProject/rosjava_srv_ws/src/tutorial_custom_srv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/rosjava_srv_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gor/RoboticsProject/rosjava_srv_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srv.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srv.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_custom_srv/cmake" TYPE FILE FILES
-    "/home/ros/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srvConfig.cmake"
-    "/home/ros/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srvConfig-version.cmake"
+    "/home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srvConfig.cmake"
+    "/home/gor/RoboticsProject/rosjava_srv_ws/build/tutorial_custom_srv/catkin_generated/installspace/tutorial_custom_srvConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_custom_srv" TYPE FILE FILES "/home/ros/rosjava_srv_ws/src/tutorial_custom_srv/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_custom_srv" TYPE FILE FILES "/home/gor/RoboticsProject/rosjava_srv_ws/src/tutorial_custom_srv/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/com/github/rosjava/tutorial_custom_srv" TYPE DIRECTORY FILES "/home/ros/rosjava_srv_ws/devel/share/maven/com/github/rosjava/tutorial_custom_srv/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/com/github/rosjava/tutorial_custom_srv" TYPE DIRECTORY FILES "/home/gor/RoboticsProject/rosjava_srv_ws/devel/share/maven/com/github/rosjava/tutorial_custom_srv/")
 endif()
 
